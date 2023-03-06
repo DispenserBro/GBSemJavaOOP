@@ -5,12 +5,12 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        Animal animal = new Animal(null, null, 1);
+//        Animal animal = new Animal(null, null, 1);
 //        System.out.println(animal.getColor());
 
-        Animal animal1 = new Animal("влоы");
+//        Animal animal1 = new Animal("влоы");
 //        System.out.println(animal1.getPawsCount());
-        Object animal3 = new Animal();
+//        Object animal3 = new Animal();
 
 //        Cat cat1 = new Cat("Мурзик");
 //        System.out.println(animal1.getType());
@@ -34,4 +34,5 @@ public class Main {
 
         cat2.hunt();
     }
+
 }
