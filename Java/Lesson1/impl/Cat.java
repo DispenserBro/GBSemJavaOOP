@@ -1,6 +1,11 @@
-package Lesson1;
+package Lesson1.impl;
 
-public class Cat extends Animal {
+import Lesson1.Animal;
+import Lesson1.Illable;
+
+import java.io.Serializable;
+
+public class Cat extends Animal implements Illable {
     public Cat(String name, String color) {
         super(name, color,4);
     }
@@ -20,7 +25,7 @@ public class Cat extends Animal {
         eat();
     }
 
-    private void wakeUp() {
+    protected void wakeUp() {
         System.out.println("Cat woke up..");
     }
 
@@ -38,5 +43,10 @@ public class Cat extends Animal {
 
     public void goToSleep() {
         System.out.println("Cat already asleep..");
+    }
+
+    @Override
+    public void getIll() {
+        System.out.printf("%s заболел", this.getName());
     }
 }

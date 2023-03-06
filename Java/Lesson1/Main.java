@@ -1,5 +1,9 @@
 package Lesson1;
 
+import Lesson1.impl.Cat;
+import Lesson1.impl.Dog;
+import Lesson1.impl.Duck;
+
 import java.util.ArrayList;
 import java.util.List;
 

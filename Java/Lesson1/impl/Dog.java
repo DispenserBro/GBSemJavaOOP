@@ -1,4 +1,6 @@
-package Lesson1;
+package Lesson1.impl;
+
+import Lesson1.Animal;
 
 public class Dog extends Animal {
     public Dog(String name, String color) {
@@ -12,5 +14,10 @@ public class Dog extends Animal {
     @Override
     public void speak() {
         System.out.println("Woof!");
+    }
+
+    @Override
+    public void hunt() {
+
     }
 }
